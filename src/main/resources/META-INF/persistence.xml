@@ -4,14 +4,14 @@
 http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
 	version="2.1">
 	
-	<persistence-unit name="pu_essai" transaction-type="RESOURCE_LOCAL">
+	<persistence-unit name="pu_bibli" transaction-type="RESOURCE_LOCAL">
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 		<properties>
-			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://u6nplovafyhduxka:N8X1Rw8ogYs07cUxMIaT@b75jresxb6s7otwsjctl-mysql.services.clever-cloud.com:3306/b75jresxb6s7otwsjctl" />
-			<property name="javax.persistence.jdbc.user" value="u6nplovafyhduxka" />
-			<property name="javax.persistence.jdbc.password" value="N8X1Rw8ogYs07cUxMIaT" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://ugiseq86fc8dj7rf:8CjA88eTITL2cwQ0LDfu@bguc0pnn0yfpsbvefjyi-mysql.services.clever-cloud.com:3306/bguc0pnn0yfpsbvefjyi" />
+			<property name="javax.persistence.jdbc.user" value="ugiseq86fc8dj7rf" />
+			<property name="javax.persistence.jdbc.password" value="8CjA88eTITL2cwQ0LDfu" />
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
-			<property name="hibernate.show_sql" value="true" />
+			<property name="hibernate.show_sql" value="false" />
 			<property name="hibernate.dialect"
 				value="org.hibernate.dialect.MySQL8Dialect" />
 		</properties>
