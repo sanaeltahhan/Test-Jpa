@@ -34,7 +34,7 @@ public class Emprunt {
 		
 	@ManyToOne
 	@JoinColumn(name="ID_CLIENT")
-	private Client client;
+	private ClientBib client;
 	
 	/** Constructeur
 	 * @param id

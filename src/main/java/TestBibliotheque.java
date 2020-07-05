@@ -8,13 +8,13 @@ import javax.persistence.TypedQuery;
 
 import fr.diginamic.entity.Emprunt;
 import fr.diginamic.entity.Livre;
-import fr.diginamic.entity.Client;
+import fr.diginamic.entity.ClientBib;
 
 public class TestBibliotheque {
 
 	public static void main(String[] args) {
 		
-		EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("pu_bibli");
+		/*EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("pu_bibli");
         EntityManager entityManager = entityManagerFactory.createEntityManager();
         
 		// Réalisez une requête qui permet d’extraire un emprunt et tous ses livres associés.
@@ -28,7 +28,7 @@ public class TestBibliotheque {
         
         System.out.println("Réalisez une requête qui permet d’extraire tous les emprunts d’un client donné");
 
-        List<Emprunt> clientEmprunt = entityManager.find(Client.class, 1).getEmprunts();
+        List<Emprunt> clientEmprunt = entityManager.find(ClientBib.class, 1).getEmprunts();
         
         for (Emprunt emprunt2 : clientEmprunt) {
         	System.out.println(emprunt2);
@@ -41,7 +41,7 @@ public class TestBibliotheque {
         
         // Ferme tout
         entityManager.close();
-        entityManagerFactory.close();
+        entityManagerFactory.close();*/
 	}
 
 }

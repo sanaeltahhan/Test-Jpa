@@ -10,7 +10,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "CLIENT")
-public class Client {
+public class ClientBib {
 	
 	@Id
 	@Column(name="ID")
@@ -28,14 +28,14 @@ public class Client {
 	/** Constructeur vide
 	 * 
 	 */
-	public Client() {}
+	public ClientBib() {}
 
 	/** Constructeur
 	 * @param id
 	 * @param nom
 	 * @param prenom
 	 */
-	public Client(Integer id, String nom, String prenom) {
+	public ClientBib(Integer id, String nom, String prenom) {
 		super();
 		this.id = id;
 		this.nom = nom;
